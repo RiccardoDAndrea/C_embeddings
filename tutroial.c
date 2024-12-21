@@ -9,10 +9,10 @@ int main() {
     // Ausgabe
     printf("There once was a man named %s.\n", name);
     printf("He was %d years old.\n", age);
-    printf("There")
-    printf("Was geht abschließen")
-    printf("Was geht ab")
-    printf("Das ist einer neuer text")
+    printf("There");
+    printf("Was geht abschließen");
+    printf("Was geht ab");
+    printf("Das ist einer neuer text");
     return 0;  // Hauptfunktion korrekt abschließen
 }
 
