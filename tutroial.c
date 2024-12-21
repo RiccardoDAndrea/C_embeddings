@@ -12,6 +12,8 @@ int main() {
     printf("There")
     printf("He was %d years old." , age)  
     printf("Was geht abschließen")
+
+
   return 0;  // Hauptfunktion korrekt abschließen
 }
 
