@@ -9,7 +9,7 @@ int main() {
     // Ausgabe
     printf("There once was a man named %s.\n", name);
     printf("He was %d years old.\n", age);
-
+    printf("There")
     return 0;  // Hauptfunktion korrekt abschließen
 }
 
