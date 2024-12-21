@@ -12,7 +12,8 @@ int main() {
     printf("There")
     printf("Was geht abschließen")
     printf("Was geht ab")
-  return 0;  // Hauptfunktion korrekt abschließen
+    printf("Das ist einer neuer text")
+    return 0;  // Hauptfunktion korrekt abschließen
 }
 
 
