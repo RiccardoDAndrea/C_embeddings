@@ -1,9 +1,16 @@
-#include <stdio.h>  
+#include <stdio.h>
 #include <stdlib.h>
 
 int main() {
-    printf("There once was a man named");
-    printf("He was years old");
+    // Variablen für den Namen und das Alter
+    char name[50] = "John";  // Beispielname
+    int age = 30;            // Beispielalter
 
-    return 0;  // Füge diese Zeile hinzu, um die main-Funktion korrekt abzuschließen
+    // Ausgabe
+    printf("There once was a man named %s.\n", name);
+    printf("He was %d years old.\n", age);
+
+    return 0;  // Hauptfunktion korrekt abschließen
 }
+
+
