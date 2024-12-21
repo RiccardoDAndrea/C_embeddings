@@ -10,8 +10,8 @@ int main() {
     printf("There once was a man named %s.\n", name);
     printf("He was %d years old.\n", age);
     printf("There")
-    printf("Was geht abschließen")
-    printf("Hallo")
+    printf("He was %d years old." , age)  
+    printf("Was :eht abschließen")
   return 0;  // Hauptfunktion korrekt abschließen
 }
 
