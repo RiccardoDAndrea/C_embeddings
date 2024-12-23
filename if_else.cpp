@@ -23,16 +23,34 @@ int main() {
         cin >> answer_1;
 
         if (answer_1 == "B"){
-            cout << "Bedroom";
+            cout << "Bedroom\n";
+            cout << "The cupboard is locked with a digit pin\n";
+            cout << "Enter a random digit code ! \n";
+
+            int digit_code;
+            cin >> digit_code;
+            
+            if (digit_code == 0000){
+              cout << "You have sucessfully entered the right combination" << digit_code;
+              }
+            else {
+              cout << ("Nothing to see");
+            };
         } else if (answer_1 == "D") {
             cout << "You have entered the Dark room\n";
             cout << "You see a myseries looking Chest do you try to open it? \n";
-            cout << "(y)es"
-            cout << "(n)o"
-
-
+            cout << "(y)es \n";
+            cout << "(n)o\n";
             string chest_open;
-            cint >> chest_open;
+            cin >> chest_open;
+
+
+
+            if (chest_open == "y"){
+              cout << "You open the chest a see a myseries medall from the second world war 2 with the name Charles Hunt\n";
+            }
+            
+
 
 
         } else if (answer_1 == "E"){
