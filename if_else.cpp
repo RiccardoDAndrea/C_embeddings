@@ -8,13 +8,8 @@ int main() {
     cout << "Do you want to enter the house? \n";
     cout << "(y)es \n";
     cout << "(n)o";
-    //cout << "(3) Bestanden \n";
 
-    string option;      // string datentyp ziechenverkettung
-    cin >> option;      // cin steht fur (Charakter input)
-
-    if (option == "y") {
-        cout << "You have entered the Hunted House which room do you want to enter? \n";
+    string option;      // string  the Hunted House which room do you want to enter? \n";
         cout << "(B)edroom \n";
         cout << "(D)ark room\n";
         cout << "(E)mpty room\n";
