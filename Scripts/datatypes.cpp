@@ -16,7 +16,11 @@ Das ist eine Skript fuer die Datentypen
 int main(){
 // studenten Daten
 
-  int studentID = 15;
+  int studentID;
+  cout << "Enter your StudentID: ";
+  cin >> studentID;
+
+
   int studentAge = 23;
   float studentFee = 75.25;
   string department = "Wiso";
