@@ -7,6 +7,9 @@ using namespace std;
 Das ist eine Skript fuer die Datentypen
 */ 
 
+// Daten kompilieren
+// g++ programm.cpp -o programm
+// ./programm
 // int    - stores integers (whole numbers), without decimals, suchs as 123 or -123
 // double - stores folating point numbers, with decimals, such as 19.99 or -19.99
 // char   - stores single charakters, such as "a" or "b". Char values are surrounded by single quotes
